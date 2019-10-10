@@ -22,8 +22,22 @@ int get_max(int a, int b)
 
 	return b;
 }
-int main(int argc, char *argv[]) {
 
-return 0;}
+int main(int argc, char *argv[]) {
+	
+	int a, b;
+	int output;
+	
+	a=2;
+	b=5;
+	
+	output=sumTwo(a,b);
+	printf("sumTwo : %i\n", output);
+	printf("square : %i\n", square(a));
+	output = get_max(a,b);
+	printf("get_max : %i\n", output);
+	
+	return 0;
+}
 
 
