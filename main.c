@@ -3,21 +3,16 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-
-#include <stdio.h>
-int square(int n);
-
-int main(void)
-{
-	int result;
-	result= square(5);
-	printf("%d",result);
-}
-
-int square (int n)
-{
-	return (n*n);
-
+int main(int argc, char *argv[]) {
+	
+	int i;
+	int max=45;
+	
+	for (i=0;i<6;i++)
+	{
+		printf("%d ", 1+rand()%max);
+	}
+	return 0;
 }
 	
 
